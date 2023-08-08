@@ -1,3 +1,27 @@
+# Instalação
+
+* Versão do node usada: v16.13.0
+
+clonando repo
+```bash
+git clone https://github.com/rhuancf/ds-alurabooks
+```
+
+pasta do repositorio
+```bash
+cd ds-alurabooks
+```
+
+instalando dependencias
+```bash
+yarn
+```
+
+iniciando
+```bash
+yarn storybook
+```
+
 # TSDX React w/ Storybook User Guide
 
 Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.

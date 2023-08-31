@@ -8,13 +8,13 @@ export interface AbBotaoProps {
 }
 
 const BotaoEstilizado = styled.button<AbBotaoProps>`
-  background-color: ${({tipo}) => tipo === 'primario' ? '#EB9B00' : '#FFF'};
+  background-color: ${({tipo}:AbBotaoProps) => tipo === 'primario' ? '#EB9B00' : '#FFF'};
   padding: 16px 32px;
   border: 2px solid #EB9B00;
-  color: ${({tipo}) => tipo === 'primario' ? '#FFF' : '#EB9B00'};
+  color: ${({tipo}:AbBotaoProps) => tipo === 'primario' ? '#FFF' : '#EB9B00'};
   font-size: 20px;
   cursor: pointer;
-  ${({tipo}) => tipo === 'primario' 
+  ${({tipo}:AbBotaoProps) => tipo === 'primario' 
     ? css`
       &:hover {
         background: #B87900;
